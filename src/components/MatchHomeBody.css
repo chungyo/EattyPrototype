@@ -1,0 +1,88 @@
+.HomeBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeBody .main_text p {
+    font-size: 33px;
+    text-align: center;
+    font-family: PretendardExtraBold;
+    margin-bottom: -20px; /* 행간을 -20px로 설정 */
+}
+
+.HomeBody .home_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.HomeBody .home_image img{
+    width: 85%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+
+.HomeBody .subtext{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.HomeBody .subtext p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.HomeBody .input_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.HomeBody .input_name{
+    width: 70%;
+    height: 5vh;
+    text-align: center;
+    margin: 30px;
+    border: solid 1px rgb(128, 128, 128);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.HomeBody .button_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.HomeBody .button_section .start_button {
+    width: 100%;
+    height: 8vh;
+    font-size: 20px;
+    background-color: #BDBDBD;
+    color: white; /* 글자색 */
+    border: 2px solid #4CAF50; /* 테두리 */
+    border-radius: 15px; /* 모서리 둥글게 */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* 색상 변화 애니메이션 */
+    border: none;
+}
+
+.HomeBody .button_section .start_button:hover {
+    background-color: #C7484A; /* 호버 시 배경색 변경 */
+    color: #ffffff; /* 호버 시 글자색 변경 */
+}
+
+
+
+

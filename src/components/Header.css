@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-bottom: 2vh
+}
+
+.Header > div {
+    display: flex;
+}
+
+.Header .header_center {
+    width: 100%;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center; /* 텍스트 중앙 정렬 보장 */
+}
+
+.header_center img {
+    width: 150px; /* 기본 크기 */
+    height: auto;
+    margin: 0 auto; /* 이미지 중앙 정렬 */
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+        width: 100px; /* 모바일에서 이미지 크기 줄임 */
+    }
+}

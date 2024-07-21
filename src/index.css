@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'PretendardSemiBold';
+  src: url('/public/Pretendard-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'PretendardExtraBold';
+  src: url('/public/Pretendard-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'PretendardLight';
+  src: url('/public/Pretendard-Light.otf');
+}
+
+@font-face {
+  font-family: 'PretendardRegular';
+  src: url('/public/Pretendard-Regular.otf');
+}
+
+
+html,
+body {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  background-color: #C7494A;
+}
+
+body * {
+  font-family: "PretendardSemiBold";
+}
+
+#root {
+  background-color: white;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+  padding: 0px 20px;
+  padding-bottom: 20px; /* 아래쪽 여백 추가 */
+}
